@@ -1,0 +1,774 @@
+$feature-flags: (
+  ui-shell: true,
+  grid-columns-16: true,
+);
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+.hideMe {
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      opacity: 0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      opacity: 0;
+      visibility:hidden;
+  }
+}
+
+.leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    word-wrap: break-word;
+    //font-size: 8.5px;
+    font-size: 12px;
+    //font-weight: bold;
+  }
+  
+  .leaflet-tooltip.my-labels-vertical {
+    background-color: transparent;
+    font-size: 12px;
+    border: transparent;
+    box-shadow: none;
+    writing-mode: vertical-rl
+  }
+  .marker-cluster-small {
+    background-color: rgba(200, 206, 209, 0.6);
+    }
+    .marker-cluster-small div {
+    background-color: rgba(200, 255, 255, 0.6);
+    }
+    
+    .marker-cluster-medium {
+    background-color: rgba(0, 206, 209, 0.3);
+    }
+    .marker-cluster-medium div {
+    background-color: rgba(0, 255, 255, 0.3);
+    }
+    
+    .marker-cluster-large {
+    background-color: rgba(0, 206, 209, 0.6);
+    }
+    .marker-cluster-large div {
+    background-color: rgba(0, 255, 255, 0.6);
+    }
+/* some how adding the style to preview card is not working, hence, the style has been defined in-line with the content.
+Revisit the code and address the issue */
+  .previewCard {
+    background:#ffcc00
+  }
+
+  .draggable {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .react-draggable{
+    z-index: 10000;
+    position: absolute;
+  }
+
+  .filterPane {
+    background-color: #ffcc00;
+  }
+  .dragPaneAnchor {
+    width: 50px;
+    height: 40px;
+  }
+  .dragPaneCloseButton {
+    position: absolute;
+    right: 0px;
+  }
+
+  .dragPaneCloseButton img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .shipmentFilterContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 3.5rem;
+  }
+
+  .shipmentFilterContainer {
+    width: 240px;
+    height: 33rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+
+  .shipmentFilterContainer .dragAnchorPostion{
+    position: absolute;
+    left: 100px;
+  }
+
+  .shipmentFilterContainer .dragHandlePostion{
+    top: 20px
+  } 
+
+  .shipmentFilter {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .shipmentFilter .referenceContainer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 3rem
+  }
+  .shipmentFilter .referenceContainer .referenceDiv {
+    display: inline; 
+  }
+  .shipmentFilter .referenceContainer .referenceDiv .referenceTextContainer{
+    width: 70%;
+    float: left; 
+  }
+  .shipmentFilter .referenceContainer .referenceDiv .referenceTextContainer .referenceText{
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem;
+  }
+  .shipmentFilter .referenceContainer .referenceDiv .referenceButtonContainer{
+    width: 25%;
+    float: right; 
+    height: 2rem;
+    margin-right:10px;
+  }
+  .searchButton {
+    height: 2rem;
+    margin-left :5px;
+  }
+  .searchButton:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+  .referenceError {
+    font-style: italic;
+    font-weight: bold;
+    color:red;
+    display: none;
+  }
+  .accordianContainer {
+    width: 95%;
+    margin-bottom: 3rem;
+    max-height: 6rem;
+  }
+
+  .accordianDiv {
+    max-height: 10rem;
+    overflow: auto;
+  }
+
+  .heatmapContainerHook {
+    position: fixed;
+    left: 2rem;
+    top: 3.5rem;
+  }
+  
+  .heatmapContainer {
+    width: 22rem;
+    height: 12rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+
+  .heatmapContainer .dragAnchorPostion{
+    position: absolute;
+    left: 150px;
+  }
+
+  .heatmapContainer .dragHandlePostion{
+    top: 20px
+  } 
+
+  .heatmapFilter {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .sliderContainer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+  }
+  .sliderContainer .bx--form-item .bx--label {
+    font-weight:normal;
+    font-size:1rem;
+    margin-bottom: 0px;
+  }
+
+  .heatmapFilter .slider {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding-right: 10px
+  }
+  
+  .heatmapFilter .button {
+    width: 45%;
+    height: 2rem;
+    margin-left: 5px;
+    margin-top: 1rem 
+  }
+
+  .heatmapFilter .button:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  .playbackContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 3.5rem;
+  }
+  
+  .playbackContainer {
+    width: 240px;
+    height: 12rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+
+  .playbackContainer .dragAnchorPostion{
+    position: absolute;
+    left: 100px;
+  }
+
+  .playbackContainer .dragHandlePostion{
+    top: 20px
+  } 
+
+  .playbackFilter {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding-right: 10px;
+    height : 7rem;
+  }
+  
+  .playbackFilter .referenceContainer {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    height: 3rem
+  }
+
+  .playbackFilter .referenceContainer .referenceTextContainer{
+    width: 95%;
+    /*margin-left: auto;*/
+  }
+
+  .playbackFilter .referenceContainer .referenceTextContainer .referenceText{
+    width: 15rem;
+    height: 2rem;
+    padding: 0.5rem;
+  }
+
+  .playbackFilter .button {
+    width: 45%;
+    height: 2rem;
+    margin-left: 5px;
+  }
+
+  .playbackFilter .button:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  .assetTrackingContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 3.5rem; 
+  }
+
+  .assetTrackingContainer {
+    width: 240px;
+    height: 26rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+  
+  .assetTrackingContainer .dragAnchorPostion{
+    position: absolute;
+    left: 100px;
+  }
+
+  .assetTrackingContainer .dragHandlePostion{
+    top: 20px
+  }
+
+  .assetTrackingFilter {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+
+  .assetTrackingFilter .assetContainer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 3rem
+  }
+  .assetTrackingFilter .assetContainer .assetDiv {
+    display: inline; 
+  }
+  .assetTrackingFilter .assetContainer .assetDiv .assetTextContainer{
+    width: 70%;
+    float: left; 
+  }
+  .assetTrackingFilter .assetContainer .assetDiv .assetTextContainer .assetText{
+    width: 10rem;
+    height: 2rem;
+    padding: 0.0rem;
+  }
+  .assetTrackingFilter .assetContainer .assetDiv .assetTextContainer .assetText .bx--list-box__menu-item__option {
+    font-size:1rem;
+  }
+  .assetTrackingFilter .assetContainer .assetDiv .assetButtonContainer{
+    width: 25%;
+    float: right; 
+    height: 2rem;
+    margin-right:10px;
+  }
+
+  .assetError {
+    font-style: italic;
+    font-weight: bold;
+    color:red;
+    display: none;
+  }
+
+  .layoutAdminContainer {
+    padding : 0.5rem;
+    width : 100%;
+    height : 39rem;
+  }
+
+  .layoutAdminContainer .divStyle {
+    border : solid lightgrey 1px;
+    border-radius: 5px;
+    height : 100%;
+  }
+  .layoutAdminContainer .title {
+    background-color : #ffcc00;
+    padding-left: 5px;
+    margin-bottom:5px; 
+    height:5%;
+  }
+  .layoutAdminContainer .SiteTree {
+    float : left;
+    width : 20%;
+  }
+
+  .SiteTree .treeContainer{
+    margin-top : 1rem;
+    padding-left: 0.5rem;
+    color: black;
+    fill: black;
+    width: 100%;
+    height:90%;
+    overflow: scroll;
+  }
+
+  .SiteTree .treeContainer a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .SiteTree .treeContainer a:hover{
+    color: blue;
+    font-weight: bold;
+  }
+
+  .layoutAdminContainer .EditArea {
+    border : solid lightgrey 1px;
+    margin-left : 5px;
+    display:inline-block;
+    width : 20%;
+  }
+
+  .layoutAdminContainer .EditArea .editableContent {
+    height : 80%;
+    width:95%;
+    margin:auto;
+  }
+
+  .layoutAdminContainer .EditArea .editableContent .textFields{
+    display: none;
+    height: 2rem;
+  }
+
+  .layoutAdminContainer .EditArea .editableContent .bx--form-item .bx--label{
+    font-size : 100%;
+    height: 1rem;
+    font-style: italic;
+    margin-bottom: 2px;
+  }
+
+  .layoutAdminContainer .EditArea .button {
+    width: 45%;
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .layoutAdminContainer .EditArea .button:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  .layoutAdminContainer .PreviewPane {
+    width : 59%;
+    margin-left : 5px;
+    float: right;
+  }
+
+  .layoutAdminContainer .PreviewPane .previewContainer{
+    width : 100%;
+    height:95%;
+    overflow: scroll;
+  }
+
+  .siteSelectionContainer {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .siteSelectionCombo{
+    width: 10rem;
+    height: 2rem;
+    padding: 0.0rem;
+  }
+
+  .alertSettingsContainer {
+    padding : 0.5rem;
+    width : 100%;
+    height : 39rem;
+    display: flex;
+  }
+
+  .alertSettingsContainer .leftPane{
+    float : left;
+    width: 50%;
+  }
+  .alertSettingsContainer .rightPane{
+    float : right;
+    width:50%;
+  }
+  
+  .pageSettingsContainer {
+    padding : 0.5rem;
+    width : 100%;
+    height : 39rem;
+    display: flex;
+  }
+
+  .pageSettingsContainer .leftPane{
+    float : left;
+    width: 50%;
+  }
+  .pageSettingsContainer .rightPane{
+    float : right;
+    width:50%;
+  }
+  .pageSettingsContainer .button{
+    width : 9.5rem;
+    height : 2rem;
+  }
+
+
+  .mapSettingsContainer {
+    padding : 0.5rem;
+    width : 100%;
+    height : 39rem;
+    display: flex;
+  }
+
+  .mapSettingsContainer .leftPane{
+    float : left;
+    width: 50%;
+  }
+  .mapSettingsContainer .rightPane{
+    float : right;
+    width:50%;
+  }
+  .mapSettingsContainer .button{
+    width : 9.5rem;
+    height : 2rem;
+  }
+
+  .SysProp {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .SysProp .title {
+    font-style: italic;
+    padding: 0.5rem;
+  }
+
+  .SysProp .label {
+    width: 55%;
+    padding-left : 1rem;
+  }
+  
+  .SysProp .input {
+    width: 15%;
+    padding : 0.5rem;
+    text-align: center;
+  }
+
+  .SysProp:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .SysProp .button {
+    height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .SysProp .button:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  .troubleshootingContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 2rem; 
+  }
+
+  .troubleshootingContainer {
+    width: 90rem;
+    height: 45rem;
+    margin-top: 0rem;
+    border-radius: 5px;
+    background-color: white;
+    border: solid;
+    border-color: lightgrey
+  }
+  
+  .troubleshootingContainer .dragAnchorPostion{
+    position: absolute;
+    left: 43.5rem;
+  }
+
+  .troubleshootingContainer .dragHandlePostion{
+    top: 20px
+  }
+
+  .troubleshootingFilter {
+    width: 86rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-right: 10px;
+  }
+
+  .troubleshootingFilter .logContainer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 3rem
+  }
+  .troubleshootingFilter .logContainer .logDiv {
+    display: inline; 
+  }
+  .troubleshootingFilter .logContainer .logDiv .logTextContainer{
+    width: 70%;
+    float: left; 
+  }
+  .troubleshootingFilter .logContainer .logDiv .logTextContainer .logText{
+    width: 15rem;
+    height: 2rem;
+    padding: 0.0rem;
+    margin-bottom: 2rem;
+  }
+
+  .troubleshootingFilter .logContainer .logDiv .downloadButtonContainer{
+    width: 25%;
+    float: right; 
+    height: 2rem;
+    text-align: right;
+    display: none;
+  }
+  .downloadButton {
+    height: 2rem;
+    font-size: .95rem;
+    font-weight: 700;
+    background-color: #f4f4f4
+  }
+  .downloadButton:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  /***** Exception pane styles start *********/
+  .exceptionsContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 3.5rem;
+  }
+  
+  .exceptionContainer {
+    width: 90rem;
+    height: 46rem;
+    margin-top: 0rem;
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    background-color: white; 
+  }
+
+  .exceptionContainer .dragAnchorPostion{
+    position: absolute;
+    left: 43.5rem;
+  }
+
+  .exceptionContainer .dragHandlePostion{
+    top: 20px
+  } 
+  .epcExceptionContainer {
+    width: 100%;
+    float: left;
+  }
+
+  .assetExceptionContainer {
+    width: 100%;
+    float: right;
+  }
+  .exceptionFilterPane {
+    width: 100%;
+    height: 20%;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    padding-right: 5px;
+  }
+  .exceptionFilterPane .filterDiv {
+    width: 99%;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+  }
+  .exceptionFilterPane .filterDiv table{
+    width: 99%;
+  }
+
+  .epcDataTableDiv {
+    width: 100%;
+    max-height: 33rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    overflow-y: scroll;
+  }
+  
+  /***** Exception pane styles end ***********/
+
+
+  /***** Admin pane styles start *********/
+  .adminContainerHook {
+    position: fixed;
+    left: 2.0rem;
+    top: 3.5rem;
+  }
+  
+  .adminContainer {
+    width: 90rem;
+    height: 52rem;
+    margin-top: 0rem;
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    background-color: white; 
+  }
+
+  .adminContainer .dragAnchorPostion{
+    position: absolute;
+    left: 43.5rem;
+  }
+
+  .adminContainer .dragHandlePostion{
+    top: 20px
+  } 
+
+  .adminPage {
+    width: 98%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .adminPage--tabs {
+    margin-left: 20px;
+    text-align: left;
+  }
+  /***** Admin pane styles end ***********/
+
+  /******* User Admin Page styles start *********/
+  
+  .userAdminContainer {
+    padding : 0.5rem;
+    width : 100%;
+    height : 39rem;
+    display: flex;
+  }
+
+  .userAdminContainer .leftPane{
+    float : left;
+    width: 50%;
+  }
+  .userAdminContainer .rightPane{
+    float : right;
+    width:50%;
+  }
+  
+  .user_role_mapping_table {
+    position: relative;
+    overflow: auto;
+    max-height: 38rem;
+  }
+
+  .bx--toolbar-action ~ .bx--btn {
+    background-color: grey;
+  }
+
+  .bx--btn--primary {
+    background-color: grey;
+    text-align: center;
+  }
+  .userAdminContainer .button {
+    height: 3rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    background-color: lightgrey;
+  }
+
+  .userAdminContainer .button:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: grey;
+  }
+  /******* User Admin Page styles end *********/

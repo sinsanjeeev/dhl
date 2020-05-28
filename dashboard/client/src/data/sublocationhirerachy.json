@@ -1,0 +1,1308 @@
+{
+  "sublocationhierarchy": {
+    "Putaway": [
+      {
+        "sub_location_id": 3,
+        "location_name": "Cat(2)",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              186.5,
+              599.25
+            ],
+            [
+              231.5,
+              599.25
+            ],
+            [
+              231.5,
+              643.75
+            ],
+            [
+              186.5,
+              643.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 4,
+        "location_name": "OI",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              93.5,
+              65.25
+            ],
+            [
+              276.5,
+              65.25
+            ],
+            [
+              276.5,
+              109.75
+            ],
+            [
+              93.5,
+              109.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 5,
+        "location_name": "OE",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              93.5,
+              109.75
+            ],
+            [
+              276.5,
+              109.75
+            ],
+            [
+              276.5,
+              154.25
+            ],
+            [
+              93.5,
+              154.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 14,
+        "location_name": "Bulk E",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              93.5,
+              332.25
+            ],
+            [
+              231.5,
+              332.25
+            ],
+            [
+              231.5,
+              376.75
+            ],
+            [
+              93.5,
+              376.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 15,
+        "location_name": "Apple",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              321.5,
+              287.75
+            ],
+            [
+              389,
+              287.75
+            ],
+            [
+              389,
+              332.25
+            ],
+            [
+              321.5,
+              332.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 16,
+        "location_name": "Dell(1)",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              389,
+              287.75
+            ],
+            [
+              456.5,
+              287.75
+            ],
+            [
+              456.5,
+              332.25
+            ],
+            [
+              389,
+              332.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 17,
+        "location_name": "Moto",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              411.5,
+              332.25
+            ],
+            [
+              456.5,
+              332.25
+            ],
+            [
+              456.5,
+              376.75
+            ],
+            [
+              411.5,
+              376.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 19,
+        "location_name": "Stage North",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              366.5,
+              332.25
+            ],
+            [
+              411.5,
+              332.25
+            ],
+            [
+              411.5,
+              376.75
+            ],
+            [
+              366.5,
+              376.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 18,
+        "location_name": "Siemens",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              366.5,
+              332.25
+            ],
+            [
+              411.5,
+              332.25
+            ],
+            [
+              411.5,
+              376.75
+            ],
+            [
+              366.5,
+              376.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 6,
+        "location_name": "Bulk F",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              48.5,
+              65.25
+            ],
+            [
+              93.5,
+              65.25
+            ],
+            [
+              93.5,
+              109.75
+            ],
+            [
+              48.5,
+              109.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 7,
+        "location_name": "Dell(2)",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              48.5,
+              109.75
+            ],
+            [
+              93.5,
+              109.75
+            ],
+            [
+              93.5,
+              154.25
+            ],
+            [
+              48.5,
+              154.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 1,
+        "location_name": "Eaton",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              321.5,
+              109.75
+            ],
+            [
+              411.5,
+              109.75
+            ],
+            [
+              411.5,
+              287.75
+            ],
+            [
+              321.5,
+              287.75
+            ],
+            [
+              321.5,
+              243.25
+            ],
+            [
+              231.5,
+              243.25
+            ],
+            [
+              231.5,
+              198.75
+            ],
+            [
+              321.5,
+              198.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 2,
+        "location_name": "Cat(1)",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              276.5,
+              109.75
+            ],
+            [
+              321.5,
+              109.75
+            ],
+            [
+              321.5,
+              198.75
+            ],
+            [
+              186.5,
+              198.75
+            ],
+            [
+              186.5,
+              154.25
+            ],
+            [
+              276.5,
+              154.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 8,
+        "location_name": "Dan Foss",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              119,
+              154.25
+            ],
+            [
+              186.5,
+              154.25
+            ],
+            [
+              186.5,
+              198.75
+            ],
+            [
+              119,
+              198.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 9,
+        "location_name": "Sandvik",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              48.5,
+              154.25
+            ],
+            [
+              119,
+              154.25
+            ],
+            [
+              119,
+              198.75
+            ],
+            [
+              48.5,
+              198.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 11,
+        "location_name": "Ocean Log desk",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              93.5,
+              243.25
+            ],
+            [
+              93.5,
+              287.75
+            ],
+            [
+              141.5,
+              287.75
+            ],
+            [
+              141.5,
+              243.25
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 12,
+        "location_name": "Over sized",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              141.5,
+              198.75
+            ],
+            [
+              186.5,
+              198.75
+            ],
+            [
+              186.5,
+              287.75
+            ],
+            [
+              141.5,
+              287.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      },
+      {
+        "sub_location_id": 13,
+        "location_name": "Lane",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              186.5,
+              243.25
+            ],
+            [
+              321.5,
+              243.25
+            ],
+            [
+              321.5,
+              332.25
+            ],
+            [
+              231.5,
+              332.25
+            ],
+            [
+              231.5,
+              287.75
+            ],
+            [
+              186.5,
+              287.75
+            ]
+          ]
+        },
+        "parent_id": 192,
+        "dhl_site_location": {
+          "location_name": "Putaway"
+        }
+      }
+    ],
+    "Receiving": [
+      {
+        "sub_location_id": 10,
+        "location_name": "Stage South",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              48.5,
+              198.75
+            ],
+            [
+              141.5,
+              198.75
+            ],
+            [
+              141.5,
+              243.25
+            ],
+            [
+              71,
+              243.25
+            ],
+            [
+              71,
+              310
+            ],
+            [
+              24.25,
+              310
+            ],
+            [
+              24.25,
+              221
+            ],
+            [
+              48.5,
+              221
+            ]
+          ]
+        },
+        "parent_id": 190,
+        "dhl_site_location": {
+          "location_name": "Receiving"
+        }
+      }
+    ],
+    "Consolidation": [
+      {
+        "sub_location_id": 20,
+        "location_name": "Stage A North",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+          "xy": [
+            [
+              434,
+              132
+            ],
+            [
+              479,
+              132
+            ],
+            [
+              479,
+              310
+            ],
+            [
+              434,
+              310
+            ]
+          ]
+        },
+        "parent_id": 193,
+        "dhl_site_location": {
+          "location_name": "Consolidation"
+        }
+      }
+    ]
+  },
+  "sublocationwithouthierarchy": [
+    {
+      "sub_location_id": 3,
+      "location_name": "Cat(2)",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            186.5,
+            599.25
+          ],
+          [
+            231.5,
+            599.25
+          ],
+          [
+            231.5,
+            643.75
+          ],
+          [
+            186.5,
+            643.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 4,
+      "location_name": "OI",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            93.5,
+            65.25
+          ],
+          [
+            276.5,
+            65.25
+          ],
+          [
+            276.5,
+            109.75
+          ],
+          [
+            93.5,
+            109.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 5,
+      "location_name": "OE",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            93.5,
+            109.75
+          ],
+          [
+            276.5,
+            109.75
+          ],
+          [
+            276.5,
+            154.25
+          ],
+          [
+            93.5,
+            154.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 14,
+      "location_name": "Bulk E",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            93.5,
+            332.25
+          ],
+          [
+            231.5,
+            332.25
+          ],
+          [
+            231.5,
+            376.75
+          ],
+          [
+            93.5,
+            376.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 15,
+      "location_name": "Apple",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            321.5,
+            287.75
+          ],
+          [
+            389,
+            287.75
+          ],
+          [
+            389,
+            332.25
+          ],
+          [
+            321.5,
+            332.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 16,
+      "location_name": "Dell(1)",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            389,
+            287.75
+          ],
+          [
+            456.5,
+            287.75
+          ],
+          [
+            456.5,
+            332.25
+          ],
+          [
+            389,
+            332.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 17,
+      "location_name": "Moto",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            411.5,
+            332.25
+          ],
+          [
+            456.5,
+            332.25
+          ],
+          [
+            456.5,
+            376.75
+          ],
+          [
+            411.5,
+            376.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 19,
+      "location_name": "Stage North",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            366.5,
+            332.25
+          ],
+          [
+            411.5,
+            332.25
+          ],
+          [
+            411.5,
+            376.75
+          ],
+          [
+            366.5,
+            376.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 18,
+      "location_name": "Siemens",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            366.5,
+            332.25
+          ],
+          [
+            411.5,
+            332.25
+          ],
+          [
+            411.5,
+            376.75
+          ],
+          [
+            366.5,
+            376.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 6,
+      "location_name": "Bulk F",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            48.5,
+            65.25
+          ],
+          [
+            93.5,
+            65.25
+          ],
+          [
+            93.5,
+            109.75
+          ],
+          [
+            48.5,
+            109.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 7,
+      "location_name": "Dell(2)",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            48.5,
+            109.75
+          ],
+          [
+            93.5,
+            109.75
+          ],
+          [
+            93.5,
+            154.25
+          ],
+          [
+            48.5,
+            154.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 10,
+      "location_name": "Stage South",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            48.5,
+            198.75
+          ],
+          [
+            141.5,
+            198.75
+          ],
+          [
+            141.5,
+            243.25
+          ],
+          [
+            71,
+            243.25
+          ],
+          [
+            71,
+            310
+          ],
+          [
+            24.25,
+            310
+          ],
+          [
+            24.25,
+            221
+          ],
+          [
+            48.5,
+            221
+          ]
+        ]
+      },
+      "parent_id": 190,
+      "dhl_site_location": {
+        "location_name": "Receiving"
+      }
+    },
+    {
+      "sub_location_id": 20,
+      "location_name": "Stage A North",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            434,
+            132
+          ],
+          [
+            479,
+            132
+          ],
+          [
+            479,
+            310
+          ],
+          [
+            434,
+            310
+          ]
+        ]
+      },
+      "parent_id": 193,
+      "dhl_site_location": {
+        "location_name": "Consolidation"
+      }
+    },
+    {
+      "sub_location_id": 1,
+      "location_name": "Eaton",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            321.5,
+            109.75
+          ],
+          [
+            411.5,
+            109.75
+          ],
+          [
+            411.5,
+            287.75
+          ],
+          [
+            321.5,
+            287.75
+          ],
+          [
+            321.5,
+            243.25
+          ],
+          [
+            231.5,
+            243.25
+          ],
+          [
+            231.5,
+            198.75
+          ],
+          [
+            321.5,
+            198.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 2,
+      "location_name": "Cat(1)",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            276.5,
+            109.75
+          ],
+          [
+            321.5,
+            109.75
+          ],
+          [
+            321.5,
+            198.75
+          ],
+          [
+            186.5,
+            198.75
+          ],
+          [
+            186.5,
+            154.25
+          ],
+          [
+            276.5,
+            154.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 8,
+      "location_name": "Dan Foss",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            119,
+            154.25
+          ],
+          [
+            186.5,
+            154.25
+          ],
+          [
+            186.5,
+            198.75
+          ],
+          [
+            119,
+            198.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 9,
+      "location_name": "Sandvik",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            48.5,
+            154.25
+          ],
+          [
+            119,
+            154.25
+          ],
+          [
+            119,
+            198.75
+          ],
+          [
+            48.5,
+            198.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 11,
+      "location_name": "Ocean Log desk",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            93.5,
+            243.25
+          ],
+          [
+            93.5,
+            287.75
+          ],
+          [
+            141.5,
+            287.75
+          ],
+          [
+            141.5,
+            243.25
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 12,
+      "location_name": "Over sized",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            141.5,
+            198.75
+          ],
+          [
+            186.5,
+            198.75
+          ],
+          [
+            186.5,
+            287.75
+          ],
+          [
+            141.5,
+            287.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    },
+    {
+      "sub_location_id": 13,
+      "location_name": "Lane",
+      "locationz": null,
+      "site_id": 1,
+      "locationxy_coordinate": {
+        "xy": [
+          [
+            186.5,
+            243.25
+          ],
+          [
+            321.5,
+            243.25
+          ],
+          [
+            321.5,
+            332.25
+          ],
+          [
+            231.5,
+            332.25
+          ],
+          [
+            231.5,
+            287.75
+          ],
+          [
+            186.5,
+            287.75
+          ]
+        ]
+      },
+      "parent_id": 192,
+      "dhl_site_location": {
+        "location_name": "Putaway"
+      }
+    }
+  ]
+}

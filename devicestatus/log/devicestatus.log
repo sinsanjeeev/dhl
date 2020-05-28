@@ -1,0 +1,62 @@
+2020-04-24 11:34:04,848   app                            INFO     Logger Initialized
+2020-04-24 11:34:07,960   state:91                       DEBUG    locations are loaded 7
+2020-04-24 11:34:08,913   state:91                       DEBUG    locations are loaded 8
+2020-04-24 11:34:10,840   app:50                         INFO     Waiting for message
+2020-04-24 11:42:15,184   app                            INFO     Logger Initialized
+2020-04-24 11:42:18,407   state:91                       DEBUG    locations are loaded 7
+2020-04-24 11:42:19,367   state:91                       DEBUG    locations are loaded 8
+2020-04-24 11:42:20,987   app:50                         INFO     Waiting for message
+2020-04-24 11:44:15,232   app                            INFO     Logger Initialized
+2020-04-24 11:44:18,727   state:91                       DEBUG    locations are loaded 7
+2020-04-24 11:44:19,697   state:91                       DEBUG    locations are loaded 8
+2020-04-24 11:44:21,613   app:50                         INFO     Waiting for message
+2020-04-24 15:51:12,551   state                          INFO     in main
+2020-04-24 15:51:30,414   state:91                       DEBUG    locations are loaded 7
+2020-04-24 15:51:31,333   state:91                       DEBUG    locations are loaded 8
+2020-04-24 15:52:03,613   state                          INFO     in main
+2020-04-24 15:52:16,514   state:91                       DEBUG    locations are loaded 7
+2020-04-24 15:52:17,474   state:91                       DEBUG    locations are loaded 8
+2020-04-24 15:54:48,480   state                          INFO     in main
+2020-04-24 15:54:52,034   state:91                       DEBUG    locations are loaded 7
+2020-04-24 15:54:52,969   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:23:57,282   state                          INFO     in main
+2020-04-24 16:24:05,321   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:24:06,305   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:25:34,038   state                          INFO     in main
+2020-04-24 16:25:41,985   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:25:42,945   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:26:08,249   state                          INFO     in main
+2020-04-24 16:26:12,075   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:26:13,014   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:27:02,188   state                          INFO     in main
+2020-04-24 16:27:05,185   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:27:06,145   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:28:00,517   state                          INFO     in main
+2020-04-24 16:28:04,395   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:28:05,352   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:29:31,876   state                          INFO     in main
+2020-04-24 16:29:40,963   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:29:41,949   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:35:43,189   state                          INFO     in main
+2020-04-24 16:35:46,430   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:35:47,377   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:37:19,803   state                          INFO     in main
+2020-04-24 16:37:23,387   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:37:24,347   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:38:10,715   state                          INFO     in main
+2020-04-24 16:38:13,947   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:38:14,907   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:38:46,792   state                          INFO     in main
+2020-04-24 16:38:50,407   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:38:51,348   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:39:32,887   state                          INFO     in main
+2020-04-24 16:39:37,147   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:39:38,747   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:41:06,514   app                            INFO     Logger Initialized
+2020-04-24 16:41:09,627   state:91                       DEBUG    locations are loaded 7
+2020-04-24 16:41:10,558   state:91                       DEBUG    locations are loaded 8
+2020-04-24 16:41:17,227   app:50                         INFO     Waiting for message
+2020-04-24 16:43:21,098   app:42                         INFO     2020-04-24T11:13:21.098615+00:00 devicestatus:ORDF99           status: {"DeviceID": "ORDF99", "DeviceType": "forklift", "Mode": "Charging", "LocationTag": {"ID": 1, "status": "ON"}, "RFIDReader": {"ID": 1, "status": "OFF"}, "ComputeModule": {"ID": 1, "status": "FAULT", "telemetry": {"ram": "50%", "cpu": "20%", "storage": "95%"}}, "timestamp": "2019-04-03T13:35:54Z", "GWtimestamp": "2019-04-03T13:36:04Z"}
+2020-04-24 16:43:21,098   app:52                         INFO     **************************Message received {"DeviceID": "ORDF99", "DeviceType": "forklift", "Mode": "Charging", "LocationTag": {"ID": 1, "status": "ON"}, "RFIDReader": {"ID": 1, "status": "OFF"}, "ComputeModule": {"ID": 1, "status": "FAULT", "telemetry": {"ram": "50%", "cpu": "20%", "storage": "95%"}}, "timestamp": "2019-04-03T13:35:54Z", "GWtimestamp": "2019-04-03T13:36:04Z"}
+2020-04-24 16:43:22,426   app:56                         INFO     **************************Message successfully processed in 1.3280074940012128 sec
+2020-04-24 16:43:22,427   app:50                         INFO     Waiting for message

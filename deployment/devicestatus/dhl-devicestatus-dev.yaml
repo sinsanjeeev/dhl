@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dhl-devicestatus
+  labels:
+    app: dhl-devicestatus
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dhl-devicestatus
+  template:
+    metadata:
+      name: dhl-devicestatus
+      labels:
+        app: dhl-devicestatus
+    spec:
+      containers:
+      - name: dhl-devicestatus
+        image: us.icr.io/dhl-global/dhl-devicestatus:dev
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 6007
+        env:
+        - name: ORG_ID
+          value: zihmgu
+        - name: MQTT_APPID
+          value: devicestatusdevappk8s
+        - name: DEVICE_LIST
+          value: devicestatus:ORDF99
+        - name: LOG_LEVEL
+          value: "DEBUG"
+        - name: SITE_CODE
+          value: "ORD"
+       
+    
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: dhl-devicestatus
+  labels:
+    app: dhl-devicestatus
+spec:
+  ports:
+  - port: 6007
+    targetPort: 6007
+  selector:
+    app: dhl-devicestatus
+
+        
+        
+

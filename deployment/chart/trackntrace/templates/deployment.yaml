@@ -1,0 +1,104 @@
+{{- range .Values.trackntrace.clusters }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dhl-trackntrace-{{ .cluster_id }}
+  labels:
+    app: dhl-trackntrace-{{ .cluster_id }}
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dhl-trackntrace-{{ .cluster_id }}
+  template:
+    metadata:
+      name: dhl-trackntrace-{{ .cluster_id }}
+      labels:
+        app: dhl-trackntrace-{{ .cluster_id }}
+    spec:
+      containers:
+      - name: dhl-trackntrace-{{ .cluster_id }}
+        image: {{ .image }}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: {{ .port }}
+        env:
+        - name: ORG_ID
+          value: zihmgu
+        - name: MQTT_APPID
+          value: {{ .appid | quote }}
+        - name: DEVICE_LIST
+          value: {{ .device | quote }}
+        - name: LOG_LEVEL
+          value: "DEBUG"
+        - name: SITE_CODE
+          value: "ORD"
+        - name: WEB_PORT
+          value: {{ .webport | quote}}
+        - name: WEB_HOST
+          value: "0.0.0.0"
+        - name: DHL_URL
+          value: "prod" # not appended with cluster_id because there are only one container.When container will inctrease then uncomment next line and commen this line
+          # value: "prod{{ .cluster_id }}" 
+        - name: REDIS_HOST
+          value: "dhl-redis-master.default.svc.cluster.local"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: REDIS_PWD
+          value: "5mqNycoN7w"
+        - name: USE_REDIS
+          value: "T"
+        - name: SECRET_DBUSERNAME
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: dbuser
+        - name: SECRET_DB
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: database              
+        - name: SECRET_DBPASS
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: dbpass 
+        - name: SECRET_DBHOST
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: dbhost 
+        - name: SECRET_DBPORT
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: dbport
+        - name: SECRET_IOT_KEY
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: key 
+        - name: SECRET_IOT_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: token 
+        - name: SECRET_REDIS_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: redis_host
+        - name: SECRET_REDIS_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: redis_port   
+        - name: SECRET_REDIS_PASS
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: redis_pass             
+---
+
+{{end}}

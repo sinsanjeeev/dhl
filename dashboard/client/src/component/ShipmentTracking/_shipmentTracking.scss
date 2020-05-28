@@ -1,0 +1,14 @@
+@import './../../commonStyles.scss';
+
+.shipmentTrackingContainer { 
+    position: "fixed";
+    left : '20px';
+    top : '40px';
+}
+
+.shipmentTrackerFilter {
+    width: '240px';
+    height: '33rem';
+    margin-top: "2rem";
+    background-color: "#ffcc00";
+}

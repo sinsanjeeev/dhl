@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4d19241.chunk.css",
+    "main.js": "/static/js/main.92abd46f.chunk.js",
+    "main.js.map": "/static/js/main.92abd46f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef76e641.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef76e641.js.map",
+    "static/css/2.e2114239.chunk.css": "/static/css/2.e2114239.chunk.css",
+    "static/js/2.617e1aa8.chunk.js": "/static/js/2.617e1aa8.chunk.js",
+    "static/js/2.617e1aa8.chunk.js.map": "/static/js/2.617e1aa8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.59d00c842c6bf7892b6262e7176dfbf3.js": "/precache-manifest.59d00c842c6bf7892b6262e7176dfbf3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e2114239.chunk.css.map": "/static/css/2.e2114239.chunk.css.map",
+    "static/css/main.f4d19241.chunk.css.map": "/static/css/main.f4d19241.chunk.css.map",
+    "static/js/2.617e1aa8.chunk.js.LICENSE.txt": "/static/js/2.617e1aa8.chunk.js.LICENSE.txt",
+    "static/media/BannerNew.png": "/static/media/BannerNew.0426013d.png",
+    "static/media/ORDnew.PNG": "/static/media/ORDnew.4263e146.PNG",
+    "static/media/SmartDraw-min.png": "/static/media/SmartDraw-min.1757b572.png",
+    "static/media/arrows_drag_vert.svg": "/static/media/arrows_drag_vert.cbec757e.svg",
+    "static/media/delete.svg": "/static/media/delete.f60cf2c0.svg",
+    "static/media/dhl_logo.png": "/static/media/dhl_logo.48075434.png",
+    "static/media/edit.svg": "/static/media/edit.b3d3dd7d.svg",
+    "static/media/forkliftIcon_active.png": "/static/media/forkliftIcon_active.d35ccccb.png",
+    "static/media/forkliftIcon_idle.png": "/static/media/forkliftIcon_idle.bffbeec7.png",
+    "static/media/forkliftIcon_offline.png": "/static/media/forkliftIcon_offline.71ba5b36.png",
+    "static/media/forkliftIcon_service.png": "/static/media/forkliftIcon_service.2dc2c25d.png",
+    "static/media/greenButton.png": "/static/media/greenButton.b901d4e3.png",
+    "static/media/miami.png": "/static/media/miami.a5a1999b.png",
+    "static/media/redButton.png": "/static/media/redButton.d5011605.png",
+    "static/media/warehouse.jpg": "/static/media/warehouse.2af0c36c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef76e641.js",
+    "static/css/2.e2114239.chunk.css",
+    "static/js/2.617e1aa8.chunk.js",
+    "static/css/main.f4d19241.chunk.css",
+    "static/js/main.92abd46f.chunk.js"
+  ]
+}

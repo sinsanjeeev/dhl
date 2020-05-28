@@ -1,0 +1,34 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "winstart": "set USE_REDIS=T&&set REDIS_HOST=127.0.0.1&&set REDIS_PWD=5mqNycoN7w&&set REDIS_port=6379&&set LOG_LEVEL=DEBUG&& node index.js",
+    "mon": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-arraybuffer": "^0.2.0",
+    "cfenv": "^1.2.2",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonschema": "^1.2.6",
+    "lodash": "^4.17.15",
+    "log4js": "^6.2.1",
+    "lzutf8": "^0.5.5",
+    "node-cache": "^5.1.0",
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "redis": "^3.0.2",
+    "sequelize": "^5.21.4",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

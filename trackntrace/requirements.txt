@@ -1,0 +1,9 @@
+requests==2.22.0
+shapely
+wiotp-sdk
+numpy
+pandas
+psycopg2
+Flask
+Flask-Cors
+redis

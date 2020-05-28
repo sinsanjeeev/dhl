@@ -1,0 +1,16 @@
+{{- range .Values.trackntrace.clusters }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: dhl-trackntrace-{{ .cluster_id }}
+  labels:
+    app: dhl-trackntrace-{{ .cluster_id }}
+spec:
+  ports:
+  - port: {{ .port }}
+    targetPort: {{ .port }}
+  selector:
+    app: dhl-trackntrace-{{ .cluster_id }}
+
+---
+{{end}}

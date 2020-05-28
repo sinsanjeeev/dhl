@@ -1,0 +1,23 @@
+{
+  "name": "dhl-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "winstart": "set USE_REDIS=T&&set REDIS_HOST=redis-14076.c9.us-east-1-2.ec2.cloud.redislabs.com&&set REDIS_PWD=Vuqize3ZRM3UXbGWOrEzpLAVhU6FieWG&&set REDIS_port=14076&&set LOG_LEVEL=DEBUG&&set TIME_UNIT=MIN&&set TIME_QTY=1&& node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "log4js": "^6.2.1",
+    "lzutf8": "^0.5.5",
+    "node-cron": "^2.0.3",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "redis": "^3.0.2",
+    "sequelize": "^5.21.10"
+  }
+}

@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dhl-dashboard
+  labels:
+    app: dhl-dashboard
+  namespace: default
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: dhl-dashboard
+  template:
+    metadata:
+      name: dhl-dashboard
+      labels:
+        app: dhl-dashboard
+    spec:
+      containers:
+      - name: dhl-dashboard
+        image: {{ .Values.image.repository }}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: {{ .Values.containers.port }}
+        env:
+        - name: "USE_REDIS"
+          value: "T"
+        - name: "USE_DB_FROM_CONFIG_FILE"
+          value: "T"
+        - name: SECRET_DBUSERNAME
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: dbuser
+        - name: SECRET_DB
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: database              
+        - name: SECRET_DBPASS
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: dbpass 
+        - name: SECRET_DBHOST
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: dbhost 
+        - name: SECRET_DBPORT
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: dbport
+        - name: SECRET_IOT_KEY
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: key 
+        - name: SECRET_IOT_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: token 
+        - name: SECRET_REDIS_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: redis_host
+        - name: SECRET_REDIS_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: dhl-config-dev
+              key: redis_port    
+        - name: SECRET_REDIS_PASS
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: redis_pass    

@@ -1,0 +1,9 @@
+.draggable {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+.react-draggable{
+z-index: 10000;
+position: absolute;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "forkliftsocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "winstart": "set API_KEY=a-zihmgu-mpcd2grnnq&&set API_TOKEN=fyLZY)Jas+9bvSbp*T&& node index.js",
+    "linuxstart": "export API_KEY=a-zihmgu-mpcd2grnnq&&export API_TOKEN='fyLZY)Jas+9bvSbp*T'&& node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wiotp/sdk": "^0.6.2",
+    "cfenv": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "socket.io-emitter": "^3.1.1"
+  }
+}

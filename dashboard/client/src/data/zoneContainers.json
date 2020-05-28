@@ -1,0 +1,137 @@
+[
+    {
+      "location_id":0,
+      "location_name":"Eaton",
+      "locationxy_coordinate":{"xy":[[321.5,109.75],[411.5, 109.75],[411.5, 287.75],[321.5, 287.75],[321.5, 243.25],[231.5, 243.25],[231.5, 198.75],[321.5, 198.75]]}
+    },
+    {
+      "location_id":1,
+      "location_name":"Cat(1)",
+      "locationxy_coordinate":{"xy":[[276.5, 109.75],[321.5, 109.75],[321.5, 198.75],[186.5, 198.75],[186.5, 154.25],[276.5, 154.25]]}
+    },
+    {
+      "location_id":2,
+      "location_name":"Cat(2)",
+      "locationxy_coordinate":{"xy":[[186.5, 599.25],[231.5, 599.25],[231.5, 643.75],[186.5, 643.75]]}
+    },
+    {
+      "location_id":3,
+      "location_name":"OI",
+      "locationxy_coordinate":{"xy":[[93.5, 65.25],[276.5, 65.25],[276.5, 109.75],[93.5, 109.75]]}
+    },
+    {
+      "location_id":4,
+      "location_name":"OE",
+      "locationxy_coordinate":{"xy":[[93.5, 109.75],[276.5, 109.75],[276.5, 154.25],[93.5, 154.25]]}
+    },
+    {
+        "location_id":5,
+        "location_name":"Bulk F",
+        "locationxy_coordinate":{"xy":[[48.5, 65.25],[93.5, 65.25],[93.5, 109.75],[48.5, 109.75]]}
+    },
+    {
+        "location_id":6,
+        "location_name":"Dell(2)",
+        "locationxy_coordinate":{"xy":[[48.5, 109.75],[93.5, 109.75],[93.5, 154.25],[48.5, 154.25]]}
+    },
+    {
+        "location_id":7,
+        "location_name":"Dan Foss",
+        "locationxy_coordinate":{"xy":[[119, 154.25],[186.5, 154.25],[186.5, 198.75],[119, 198.75]]}
+    },
+    {
+        "location_id":8,
+        "location_name":"Sandvik",
+        "locationxy_coordinate":{"xy":[[48.5, 154.25],[119, 154.25],[119, 198.75],[48.5, 198.75]]}
+    },
+    {
+        "location_id":9,
+        "location_name":"Stage South",
+        "locationxy_coordinate":{"xy":[[48.5, 198.75],[141.5, 198.75],[141.5, 243.25],[71, 243.25],[71, 310],[24.25, 310],[24.25, 221],[48.5, 221]]}
+    },
+    {
+        "location_id":10,
+        "location_name":"Ocean Log desk",
+        "locationxy_coordinate":{"xy":[[93.5, 243.25],[93.5, 287.75],[141.5, 287.75],[141.5, 243.25]]}
+    },
+    {
+        "location_id":11,
+        "location_name":"Over sized",
+        "locationxy_coordinate":{"xy":[[141.5, 198.75],[186.5, 198.75],[186.5, 287.75],[141.5, 287.75]]}
+    },
+    {
+        "location_id":12,
+        "location_name":"3M West",
+        "locationxy_coordinate":{"xy":[[186.5, 198.75],[231.5, 198.75],[231.5, 243.25],[186.5, 243.25]]}
+    },
+    {
+        "location_id":13,
+        "location_name":"Lane",
+        "locationxy_coordinate":{"xy":[[186.5, 243.25],[321.5, 243.25],[321.5, 332.25],[231.5, 332.25],[231.5, 287.75],[186.5, 287.75]]}
+    },
+    {
+        "location_id":14,
+        "location_name":"Bulk E",
+        "locationxy_coordinate":{"xy":[[93.5, 332.25],[231.5, 332.25],[231.5, 376.75],[93.5, 376.75]]}
+    },
+    {
+        "location_id":15,
+        "location_name":"Apple",
+        "locationxy_coordinate":{"xy":[[321.5, 287.75],[389, 287.75],[389, 332.25],[321.5, 332.25]]}
+    },
+    {
+        "location_id":16,
+        "location_name":"Dell(1)",
+        "locationxy_coordinate":{"xy":[[389, 287.75],[456.5, 287.75],[456.5, 332.25],[389, 332.25]]}
+    },
+    {
+        "location_id":17,
+        "location_name":"Moto",
+        "locationxy_coordinate":{"xy":[[411.5, 332.25],[456.5, 332.25],[456.5, 376.75],[411.5, 376.75]]}
+    },
+    {
+        "location_id":18,
+        "location_name":"Siemens",
+        "locationxy_coordinate":{"xy":[[366.5, 332.25],[411.5, 332.25],[411.5, 376.75],[366.5, 376.75]]}
+    },
+    {
+        "location_id":19,
+        "location_name":"Stage North",
+        "locationxy_coordinate":{"xy":[[434, 132],[479, 132],[479, 310],[434, 310]]}
+    },
+    {
+        "location_id":20,
+        "location_name":"Stage A North",
+        "locationxy_coordinate":{"xy":[[434, 443.5],[479, 443.5],[479, 532.5],[434, 532.5]]}
+    },
+    {
+        "location_id":21,
+        "location_name":"3M East",
+        "locationxy_coordinate":{"xy":[[141.5,443.5],[141.5,465.75],[231.5,465.75],[231.5,443.5]]}
+    },
+    {
+        "location_id":22,
+        "location_name":"Bulk D North",
+        "locationxy_coordinate":{"xy":[[141.5,465.75],[141.5,510.25],[186.5,510.25],[186.5,465.75]]}
+    },
+    {
+        "location_id":23,
+        "location_name":"Bulk D South",
+        "locationxy_coordinate":{"xy":[[48.5,465.75],[48.5,510.25],[93.5,510.25],[93.5,465.75]]}
+    },
+    {
+        "location_id":24,
+        "location_name":"Bulk A",
+        "locationxy_coordinate":{"xy":[[93.5,643.75],[93.5,688.25],[186.5,688.25],[186.5,643.75]]}
+    },
+    {
+        "location_id":25,
+        "location_name":"Bulk B",
+        "locationxy_coordinate":{"xy":[[93.5,554.75],[93.5,599.25],[141.5,599.25],[141.5,554.75]]}
+    },
+    {
+        "location_id":26,
+        "location_name":"Bulk C",
+        "locationxy_coordinate":{"xy":[[48.5,510.25],[48.5,554.75],[93.5,554.75],[93.5,510.25]]}
+    }
+  ]

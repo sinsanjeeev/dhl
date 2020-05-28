@@ -1,0 +1,37 @@
+
+.header {    
+    @include cleafix(); 
+    position: relative;
+    background-color: #ffcc00; 
+    &_left{
+        float: left;
+        &_logo{
+            height: 4rem;
+            width: 10rem;
+            padding-left: .1rem;
+        }
+    }
+    
+    &_middle{
+       float: left;
+       
+       height:4rem;
+    }
+    &_right{
+        float: left;
+        //position:absolute;
+        background-color: #ffcc00; 
+        //left:60%;
+        &_logo{
+            height: 4rem;
+            //width: 33rem;
+            //margin-right: 2rem;
+            margin-right: 0rem;
+            //padding-left: 1.5rem;
+        
+        }
+    }
+    
+    
+}
+

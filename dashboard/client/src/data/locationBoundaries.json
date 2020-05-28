@@ -1,0 +1,310 @@
+[
+    {
+        "location_id": 1000,
+        "location_name": "Receiving",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    48.5,
+                    399
+                ],
+                [
+                    48.5,
+                    532.5
+                ],
+                [
+                    93.5,
+                    532.5
+                ],
+                [
+                    93.5,
+                    399
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    },
+    {
+        "location_id": 1001,
+        "location_name": "Receiving",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    48.5,
+                    198.75
+                ],
+                [
+                    141.5,
+                    198.75
+                ],
+                [
+                    141.5,
+                    243.25
+                ],
+                [
+                    71,
+                    243.25
+                ],
+                [
+                    71,
+                    310
+                ],
+                [
+                    24.25,
+                    310
+                ],
+                [
+                    24.25,
+                    221
+                ],
+                [
+                    48.5,
+                    221
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    },
+    {
+        "location_id": 1002,
+        "location_name": "Screening",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    93.5,
+                    399
+                ],
+                [
+                    93.5,
+                    532.5
+                ],
+                [
+                    119,
+                    532.5
+                ],
+                [
+                    119,
+                    399
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    },
+    {
+        "location_id": 1003,
+        "location_name": "Putaway",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    48.5,
+                    0
+                ],
+                [
+                    48.5,
+                    198.75
+                ],
+                [
+                    141.5,
+                    198.75
+                ],
+                [
+                    141.5,
+                    243.25
+                ],
+                [
+                    71,
+                    243.25
+                ],
+                [
+                    71,
+                    310
+                ],
+                [
+                    48.5,
+                    310
+                ],
+                [
+                    48.5,
+                    399
+                ],
+                [
+                    119,
+                    399
+                ],
+                [
+                    119,
+                    532.5
+                ],
+                [
+                    48.5,
+                    532.5
+                ],
+                [
+                    48.5,
+                    699
+                ],
+                [
+                    406.5,
+                    699
+                ],
+                [
+                    406.5,
+                    687
+                ],
+                [
+                    425,
+                    687
+                ],
+                [
+                    425,
+                    670
+                ],
+                [
+                    434,
+                    670
+                ],
+                [
+                    434,
+                    575
+                ],
+                [
+                    471,
+                    575
+                ],
+                [
+                    471,
+                    540
+                ],
+                [
+                    479,
+                    540
+                ],
+                [
+                    479,
+                    532.5
+                ],
+                [
+                    411.5,
+                    532.5
+                ],
+                [
+                    411.5,
+                    399
+                ],
+                [
+                    456.5,
+                    399
+                ],
+                [
+                    456.5,
+                    443.5
+                ],
+                [
+                    479,
+                    443.5
+                ],
+                [
+                    479,
+                    540
+                ],
+                [
+                    500,
+                    540
+                ],
+                [
+                    500,
+                    0
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    },
+    {
+        "location_id": 1004,
+        "location_name": "Consolidation",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    411.5,
+                    399
+                ],
+                [
+                    411.5,
+                    532.5
+                ],
+                [
+                    479,
+                    532.5
+                ],
+                [
+                    479,
+                    443.5
+                ],
+                [
+                    456.5,
+                    443.5
+                ],
+                [
+                    456.5,
+                    399
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    },
+    {
+        "location_id": 1005,
+        "location_name": "Refrigeration Area",
+        "locationz": null,
+        "site_id": 1,
+        "locationxy_coordinate": {
+            "xy": [
+                [
+                    471,
+                    539
+                ],
+                [
+                    471,
+                    575
+                ],
+                [
+                    500,
+                    575
+                ],
+                [
+                    500,
+                    539
+                ]
+            ]
+        },
+        "dhl_site": {
+            "site_name": "DHL Global Forwarding",
+            "city": "Chicago"
+        }
+    }
+]

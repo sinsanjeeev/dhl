@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "env": {"USE_REDIS":"T","REDIS_HOST":"redis-14076.c9.us-east-1-2.ec2.cloud.redislabs.com","REDIS_PWD":"Vuqize3ZRM3UXbGWOrEzpLAVhU6FieWG","REDIS_port":"14076","LOG_LEVEL":"DEBUG","TIME_UNIT":"MIN","TIME_QTY":"1"},
+            "program": "${workspaceFolder}\\index.js"
+        }
+    ]
+}

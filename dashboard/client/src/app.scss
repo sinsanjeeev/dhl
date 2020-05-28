@@ -1,0 +1,14 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/_font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/_breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/_typography.scss';
+@import 'carbon-components/scss/globals/scss/_vars.scss';
+@import './component/ShipmentTracking/shipmentTracking';
+@import './component/landingpage/landing-page';
+
+.leaflet-container {
+    height: 88vh;
+    width: 100%;
+    background-color: white;
+  }
+
+.heatmap-canvas{z-index:300 !important}

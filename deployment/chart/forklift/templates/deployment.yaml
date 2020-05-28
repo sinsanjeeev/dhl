@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dhl-forklift
+  labels:
+    app: dhl-forklift
+  namespace: default
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: dhl-forklift
+  template:
+    metadata:
+      name: dhl-forklift
+      labels:
+        app: dhl-forklift
+    spec:
+      containers:
+      - name: dhl-forklift
+        image: {{ .Values.image.repository }}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: {{ .Values.containers.port }}        
+        env:
+        - name: "GATEWAY_TYPE"
+          value: "forklift,anchor_device"
+        - name: "APP_ID"
+          value: "forkliftio"
+        - name: API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: key 
+        - name: API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: dhlsecret
+              key: token 
+       
+        
+
+
